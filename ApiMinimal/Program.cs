@@ -1,3 +1,8 @@
+using ApiMinimal.Data;
+using ApiMinimal.Repositorio;
+using ApiMinimal.Repositorio.Interfaces;
+using Microsoft.EntityFrameworkCore;
+
 namespace ApiMinimal
 {
     public class Program
@@ -12,6 +17,14 @@ namespace ApiMinimal
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddEntityFrameworkMySql()
+                .AddDbContext<SistemasTarefasDBContext>(
+                    options => options.UseNpgsql(builder.Configuration.GetConnectionString("DataBase"))
+                ) ;
+
+            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+            builder.Services.AddScoped<ITarefaRepositorio, TarefaRepositorio>();
 
             var app = builder.Build();
 

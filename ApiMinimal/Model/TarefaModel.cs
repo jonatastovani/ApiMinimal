@@ -1,4 +1,6 @@
-﻿namespace ApiMinimal.Model
+﻿using ApiMinimal.Enums;
+
+namespace ApiMinimal.Model
 {
     public class TarefaModel
     {
@@ -8,6 +10,10 @@
 
         public string? description { get; set; }
 
-        public int status { get; set; }
+        public StatusTarefa status { get; set; }
+
+        public int? usuarioId { get; set; }
+
+        public virtual UsuarioModel? usuario { get; set; }
     }
 }
