@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tovani Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
+      "projectUniqueName": "D:\\Tovani_Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
       "projectName": "ApiMinimal",
-      "projectPath": "D:\\Tovani Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
+      "projectPath": "D:\\Tovani_Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
       "packagesPath": "C:\\Users\\jon45496471\\.nuget\\packages\\",
-      "outputPath": "D:\\Tovani Dados\\GitHub\\ApiMinimal\\ApiMinimal\\obj\\",
+      "outputPath": "D:\\Tovani_Dados\\GitHub\\ApiMinimal\\ApiMinimal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jon45496471\\AppData\\Roaming\\NuGet\\NuGet.Config",

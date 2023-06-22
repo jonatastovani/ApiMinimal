@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gFbY/mbw2MMZJcYhaHFc3RGKUwtLpjOgb9VncaXzmcxKxzYgl42d7tKVFoOqJXZ6towr5BK8M2cG8T0kXz+VJg==",
+  "dgSpecHash": "+HvC6/JARIUMbb55JVLei6NvNpmhGU5kufbJOPmVNbdJPuDqDFffeZoCrF+WrZNBRYTH31j7OlVXMU+EhOrg2w==",
   "success": true,
-  "projectFilePath": "D:\\Tovani Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
+  "projectFilePath": "D:\\Tovani_Dados\\GitHub\\ApiMinimal\\ApiMinimal\\ApiMinimal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jon45496471\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\jon45496471\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
